@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>where i've bean</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script src="https://use.fontawesome.com/c71410b6d3.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaS9Lf_PobCh38uGQhrzAZaXg63oDgBKU&libraries=places" async defer></script>
+	<link rel ="stylesheet" type ="text/css" href ="css/normalize.css" />
+	<link rel ="stylesheet" type ="text/css" href ="css/style.css" />
+</head>
+<body>
+	<ul class='side-nav'>
+		<li><a id="coffee-spots" href="#"><i class="fa fa-coffee fa-2x circle-icon" aria-hidden="true"></i></a></li>
+		<li><a href="#"><i class="fa fa-globe fa-2x circle-icon" aria-hidden="true"></i></li>
+		<li><a href="#"><i class="fa fa-list fa-2x circle-icon" aria-hidden="true"></i></a></li>
+	</ul>
+	<div class="centered-content">
+		<div id="greetings">
+		</div>
+		<form action="" id="city-form">
+			<input type="text" name="usercity" id="user-city" class="hidden" value="current city">
+		</form>
+		<div class="weather">
+			<i class="fa fa-spinner fa-pulse fa-3x fa-fw" id="loader"></i>
+			<ul id="weather-details">
+			</ul>
+		</div>
+		<div class="container">
+			<p>To get started, click the coffee icon. This will show you nearby cafes and coffee shops in your current area. Once you've visited one, click on the cafe's marker, and click the 'yes' button. Doing this will log your visit to your global map. <br><br>
+			Want to see where you've been? Click the map icon and peruse away.</p>
+			<div id="map">
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

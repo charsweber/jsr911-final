@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+body {
+	font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+h1, h3 {
+	text-align: center;
+	margin: 0;
+}
+
+.side-nav {
+	margin: 25px 0;
+	padding: 0;
+	width: 100px;
+	list-style-type: none;
+	padding-left: 0;
+	position: absolute;
+	top: 0px;
+    left: 0px;
+}
+
+.side-nav li {
+    padding: 5px 13px;
+    text-decoration: none;
+}
+
+
+.side-nav li a {
+	color: #000080;
+}
+
+.side-nav li a:hover {
+	color: #ccc;
+}
+
+.fa-border {
+	border-radius: 50%;
+	border: solid 0.08em #ccc;
+}
+
+#user-city {
+	display: none;
+}
+
+#greetings {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#weather-details {
+	list-style-type: none;
+	margin: 0 auto;
+	padding-left: 0;
+}
+
+#weather-details li:first-child {
+	font-size: 2.5em;
+}
+
+.circle-icon {
+    border: 3px solid #ccc;
+    width: 40px;
+    /* height: 56px; */
+    border-radius: 50%;
+    text-align: center;
+    /* line-height: 100px; */
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.weather {
+	margin: 1em auto;
+	width: 20%;
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.centered-content {
+	margin: 3em;
+}
+
+#weathdetails {
+	display: inline-block;
+}
+
+.container {
+	width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 1.25em;
+}
+
+#activity {
+	margin: 5px;
+}
+
+#map {
+	height: 500px;
+}
+
+#hidden {
+	display: none;
+}
